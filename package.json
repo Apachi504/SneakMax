@@ -1,0 +1,22 @@
+{
+  "name": "sneakmax",
+  "version": "1.0.0",
+  "description": "project on Gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apachi504/SneakMax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apachi504/SneakMax/issues"
+  },
+  "homepage": "https://github.com/Apachi504/SneakMax#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
