@@ -2,21 +2,21 @@ let project_folder = "dist";
 let soure_folder = "src";
 
 let path = {
-    build ={
+    build:{
         html: project_folder+"/",
         css:project_folder+"/css/",
         js:project_folder+"/js/",
         fonts:soure_folder+"/fonts/",
         img:soure_folder+"/img/",
     },
-    src ={
+    src:{
         html: soure_folder+"/",
         css:soure_folder+"/scss/style.scss",
         js:soure_folder+"/js/script.js",
         fonts:soure_folder+"/fonts/*.ttf",
         img:soure_folder+"/img/**/*.{jpg,png,svg,gif,ico,webp}",
     },
-    watch ={
+    watch:{
         html: soure_folder+"/**/*.html",
         css:soure_folder+"/scss/**/*.scss",
         js:soure_folder+"/js/**/*.js",
